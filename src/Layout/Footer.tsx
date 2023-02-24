@@ -1,9 +1,7 @@
-import React from 'react';
+import Link from 'next/link';
 
-type Props = {};
-
-const Footer = (props: Props) => {
-  return <div>Footer</div>;
+const Footer = () => {
+  return <footer>Footer</footer>;
 };
 
 export default Footer;
