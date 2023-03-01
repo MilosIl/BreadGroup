@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <nav>
-      <ul>
+      <ul className='flex gap-4 justify-end '>
         <li>
           <Link href='/'>Pocetna</Link>
         </li>

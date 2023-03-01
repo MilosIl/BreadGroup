@@ -4,7 +4,7 @@ import Navbar from '@/layout/Navbar';
 
 export default function Home() {
   return (
-    <>
+    <div className='container mx-auto'>
       <Seo />
       <header>
         <Navbar />
@@ -26,6 +26,6 @@ export default function Home() {
         <section>deo za parenje ljubimaca</section>
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
