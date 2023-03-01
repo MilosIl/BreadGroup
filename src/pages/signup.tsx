@@ -1,8 +1,4 @@
-import React from 'react';
-
-type Props = {};
-
-function signup({}: Props) {
+function signup() {
   const handleSignUp = () => {};
   return (
     <div>

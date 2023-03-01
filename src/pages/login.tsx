@@ -1,8 +1,4 @@
-import React from 'react';
-
-type Props = {};
-
-const login = (props: Props) => {
+const login = () => {
   const handleLogIn = () => {};
   const handleSignUp = () => {
     // treba da se navigate to signup page
@@ -30,9 +26,9 @@ const login = (props: Props) => {
         </label>
         <div className=''>
           <button type='submit'>Ulogujte se</button>
-          <button>Ulogujte se pomocu Google</button>
-          <button>Ulogujte se pomocu Facebook</button>
-          <button>Ulogujte se pomocu Twitter</button>
+          <button className="">Ulogujte se pomocu Google</button>
+          <button className="">Ulogujte se pomocu Facebook</button>
+          <button className="">Ulogujte se pomocu Twitter</button>
           <button onClick={handleSignUp}>Kreiraj nalog</button>
         </div>
       </form>
