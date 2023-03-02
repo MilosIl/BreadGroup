@@ -27,5 +27,5 @@ export interface publicAd{
   pet:IPet,
 }
 
-export type TSpecies = 'dog' | 'cat' | 'fish' | 'bird';
+export type TSpecies = 'dog' | 'cat' | 'bird';
 export type TGender = 'male' | 'female';

@@ -8,6 +8,9 @@ const Navbar = () => {
           <Link href='/'>Pocetna</Link>
         </li>
         <li>
+          <Link href='/ads'>Oglasi</Link>
+        </li>
+        <li>
           <Link href='/signup'>Prijavi se</Link>
         </li>
         <li>
