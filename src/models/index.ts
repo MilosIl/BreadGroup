@@ -10,21 +10,20 @@ export interface IUser {
 export interface IPet {
   owner: Pick<IUser, 'username'>;
   species: TSpecies;
-  isForAdoption: boolean;
-  isForBreeding: boolean;
-  gender: TGender;
-  age: number;
   race: string;
   description: string;
+  gender: TGender;
+  age: number;
+  isForAdoption: boolean;
+  isForBreeding: boolean;
   pedigree: boolean;
 }
 
-
-export interface publicAd{
-  owner:Pick<IUser,'username'>;
-  nameAd:string;
-  description:string,
-  pet:IPet,
+export interface publicAd {
+  owner: Pick<IUser, 'username'>;
+  nameAd: string;
+  description: string;
+  pet: IPet;
 }
 
 export type TSpecies = 'dog' | 'cat' | 'bird';
