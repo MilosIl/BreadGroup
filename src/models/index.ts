@@ -24,6 +24,8 @@ export interface publicAd {
   nameAd: string;
   description: string;
   pet: IPet;
+  createAd:number,
+  editAd:number
 }
 
 export type TSpecies = 'dog' | 'cat' | 'bird';
