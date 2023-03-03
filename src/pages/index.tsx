@@ -1,3 +1,4 @@
+import Card from '@/Components/Card';
 import Seo from '@/Components/Seo';
 import Footer from '@/layout/Footer';
 import Navbar from '@/layout/Navbar';
@@ -22,7 +23,9 @@ export default function Home() {
       </div>
       
       <main>
-        <section>Deo za usavajanje ljubimaca</section>
+        <section>Deo za usavajanje ljubimaca
+          <Card/>
+        </section>
         <section>deo za parenje ljubimaca</section>
       </main>
       <Footer />

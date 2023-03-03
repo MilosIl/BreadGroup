@@ -1,20 +1,24 @@
 const Card = () => {
   return (
-    <div>
-      <h3>name</h3>
-      <p>description</p>
-      <p>gender</p>
-      <p>age</p>
+    <article>
+      <h3>Ime ljubimaca</h3>
+      <div>Opis ljubimaca
+        <p>rasa</p>
+        <p>vrsta</p>
+        <p>nesto o ljubimcu</p>
+      </div>
+      <p>pol</p>
+      <p>starost</p>
       <div>
-        Is it for adoption <input type='checkbox' name='adoption' />
+       Da li se usvaja <input type='checkbox' name='adoption' />
       </div>
       <div>
-        Is it for breeding <input type='checkbox' name='breeding' />
+        Da li je za parenje <input type='checkbox' name='breeding' />
       </div>
       <div>
-        pedigree <input type='checkbox' name='pedigree' />
+        Da li ima pedigre <input type='checkbox' name='pedigree' />
       </div>
-    </div>
+    </article>
   );
 };
 
