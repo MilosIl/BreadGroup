@@ -5,4 +5,5 @@ Site where you can post and share pictures of your pets that you want to breed o
 Site is built with technologies:
 - Next.js
 - Tailwindcss
+- Material UI icons
 - Supabase
