@@ -1,7 +1,7 @@
 import Card from '@/Components/Card';
 import Seo from '@/Components/Seo';
-import Footer from '@/layout/Footer';
-import Navbar from '@/layout/Navbar';
+import Footer from '@/Layout/Footer';
+import Navbar from '@/Layout/Navbar';
 
 export default function Home() {
   return (
