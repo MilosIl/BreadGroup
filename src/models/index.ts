@@ -8,7 +8,8 @@ export interface IUser {
 }
 
 export interface IPet {
-  owner: Pick<IUser, 'username'>;
+  // owner: Pick<IUser, 'username'>;
+  owner: string;
   species: TSpecies;
   race: string;
   description: string;
@@ -24,9 +25,9 @@ export interface publicAd {
   nameAd: string;
   description: string;
   pet: IPet;
-  createAd:number,
-  editAd:number
+  createAd: number;
+  editAd: number;
 }
 
-export type TSpecies = 'dog' | 'cat' | 'bird';
-export type TGender = 'male' | 'female';
+export type TSpecies = 'pas' | 'macka' | 'ptica';
+export type TGender = 'muzijak' | 'zenka';

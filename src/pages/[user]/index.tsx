@@ -1,13 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const index = (props: Props) => {
-  return (
-    <div>
-        Pregled strana
-    </div>
-  )
-}
+  return <div>Pregled strana</div>;
+};
 
-export default index
+export default index;

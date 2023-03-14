@@ -1,17 +1,23 @@
 'use clinet';
-import { publicAd } from "@/models";
-import { useState } from "react";
-function PetForm({createAd,description,editAd,nameAd,owner,pet}: publicAd) {
-
-  const [form,setForm]=useState({
-    age:'',
-    species:'',
-    race:'',
-    adoption:'',
-    pedigree:'',
-    gender:'',
-    description:'',
-  })
+import { publicAd } from '@/models';
+import { useState } from 'react';
+function PetForm({
+  createAd,
+  description,
+  editAd,
+  nameAd,
+  owner,
+  pet,
+}: publicAd) {
+  const [form, setForm] = useState({
+    age: '',
+    species: '',
+    race: '',
+    adoption: '',
+    pedigree: '',
+    gender: '',
+    description: '',
+  });
 
   const handleSubmit = () => {
     console.log('sacuvano');
@@ -23,7 +29,8 @@ function PetForm({createAd,description,editAd,nameAd,owner,pet}: publicAd) {
           <input
             type='number'
             placeholder='Godine'
-            onChange={(e) => e.target.value} />
+            onChange={(e) => e.target.value}
+          />
         </label>
       </div>
 
@@ -69,7 +76,8 @@ function PetForm({createAd,description,editAd,nameAd,owner,pet}: publicAd) {
             name='description'
             cols={30}
             rows={10}
-            placeholder='Opis ljubimca' />
+            placeholder='Opis ljubimca'
+          />
         </label>
       </div>
     </form>
